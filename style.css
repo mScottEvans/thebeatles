@@ -1,0 +1,29 @@
+header {
+  background-image: url("images/beatlesheader2.jpg");
+  background-size: cover;
+  padding-bottom: 300px;
+}
+
+html,
+body {
+  background-color: yellow;
+}
+
+main {
+  max-width: 90%;
+  align-content: center;
+}
+
+#thebeatles {
+  width: 300px;
+  float: right;
+}
+
+#thebeatles2 {
+  width: 200px;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+}
