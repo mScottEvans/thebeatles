@@ -27,3 +27,7 @@ main {
 a {
   text-decoration: none;
 }
+
+#bug {
+  width: 50px;
+}
