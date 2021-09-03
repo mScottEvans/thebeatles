@@ -4,7 +4,7 @@ function getUserName(){
 	if(userName == 'Scott'){
 		document.write('Welcome ' + userName);
 	}else {
-		document.write(userName);
+		document.write('Welcome' + userName);
 	}
 }
 
@@ -23,18 +23,29 @@ function joinTheBeatles(){
 
 
 
-function randomNumberGenerator(){
-	let correctAnswer = Math.floor(Math.random() * 100) +1;
-	return correctAnswer;
-}
+// function randomNumberGenerator(){
+// 	let correctAnswer = Math.floor(Math.random() * 100) +1;
+// 	return correctAnswer;
+// }
 
 
 
-function userGuessingGame(correctAnswer){
-	userAnswer = prompt("Guess a number between 1 and 100");
-	if(userAnswer == correctAnswer){
-			alert('You got it right');
-	} else {
-			alert('Sorry, that answer is incorrect');
+// function userGuessingGame(correctAnswer){
+// 	userAnswer = prompt("Guess a number between 1 and 100");
+// 	if(userAnswer == correctAnswer){
+// 			alert('You got it right');
+// 	} else {
+// 			alert('Sorry, that answer is incorrect');
+// 	}
+// }
+
+function numberBeatles(){
+	let userAnswer = prompt("How many beatles would you like?")
+	for(let i = 1; i <= userAnswer; i++){
+		let beatle = "https://3.bp.blogspot.com/-2Pm6nGXTzu0/WCedpLdSZ-I/AAAAAAAAJF0/6INAF_6TlFcBDHJhJdwbJvtj-sxOS-fdgCLcB/s1600/DicaelusLaevipennisCO1e.jpg"
+		document.write('<img src="' + beatle + '"id = "bug">' )
 	}
 }
+
+
+
